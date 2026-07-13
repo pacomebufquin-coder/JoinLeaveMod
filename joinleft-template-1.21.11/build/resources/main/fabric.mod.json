@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "JoinLeave+",
+  "version": "2.0.1",
+  "name": "Join Leave Messages and Sounds Server",
+  "description": "Customized sign-in and sign-out messages and sounds",
+  "authors": [
+    "FlyFlex"
+  ],
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.pacome.joinleave.JoinLeaveMod"
+    ]
+  },
+  "mixins": [
+    "joinleave.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

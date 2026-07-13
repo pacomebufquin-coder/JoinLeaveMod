@@ -1,0 +1,19 @@
+{
+  "join": {
+    "sounds": [
+      {
+        "name": "joinleave:join",
+        "stream": false
+      }
+    ]
+  },
+
+  "leave": {
+    "sounds": [
+      {
+        "name": "joinleave:leave",
+        "stream": false
+      }
+    ]
+  }
+}

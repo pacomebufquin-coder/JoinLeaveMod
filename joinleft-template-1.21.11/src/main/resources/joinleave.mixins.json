@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.pacome.joinleave.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "JoinPlayerManagerMixin",
+    "LeavePlayerManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

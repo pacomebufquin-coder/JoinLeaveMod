@@ -1,0 +1,82 @@
+package com.pacome.joinleave;
+
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.world.World;
+import net.minecraft.text.Text;
+import org.jspecify.annotations.NonNull;
+
+public class JoinLeaveMod implements ModInitializer {
+
+    @Override
+    public void onInitialize() {
+
+        System.out.println("[JoinLeaveMod] Mod chargé !");
+
+        // Connexion joueur
+        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+
+            ServerPlayerEntity player = handler.player;
+
+            System.out.println("[JoinLeaveMod] Joueur connecté : " + player.getName().getString());
+
+
+            server.getPlayerManager().broadcast(
+                    Text.literal("§c➜ §e" + player.getName().getString() + "§c a rejoint le serveur !"),
+                    false
+            );
+
+            // Son pour tout le serveur + la personne qui vient de rejoindre
+            server.getPlayerManager().getPlayerList().forEach(p -> {
+
+                server.getWorld(World.OVERWORLD).playSound(
+                        null,
+                        p.getBlockPos(),
+                        SoundEvents.ITEM_BUNDLE_INSERT,
+                        SoundCategory.MASTER,
+                        1.0F,
+                        1.0F
+                );
+
+            });
+
+            System.out.println("[JoinLeaveMod] Son JOIN joué !");
+        });
+
+
+        // Déconnexion joueur
+        ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> {
+
+            ServerPlayerEntity player = handler.player;
+
+            System.out.println("[JoinLeaveMod] Joueur déconnecté : " + player.getName().getString());
+            server.getPlayerManager().broadcast(
+                    Text.literal("§c➜ §e" + player.getName().getString() + "§c a quitté le serveur !"),
+                    false
+            );
+
+            // Les joueurs restants entendent le son
+            server.getPlayerManager().getPlayerList().forEach(p -> {
+
+                server.getWorld(World.OVERWORLD).playSound(
+                        null,
+                        p.getBlockPos(),
+                        SoundEvents.ITEM_AXE_STRIP,
+                        SoundCategory.MASTER,
+                        1.0F,
+                        1.0F
+                );
+
+            });
+
+            System.out.println("[JoinLeaveMod] Son LEAVE joué !");
+        });
+    }
+
+    private static @NonNull String getString() {
+        return "&e";
+    }
+}
