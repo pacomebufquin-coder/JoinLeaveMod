@@ -35,7 +35,10 @@ For the mod to work correctly, you must install a server-integrated resource pac
 -resource-pack-id=
 -resource-pack-prompt=
 Now, copy and paste this data into your Minecraft server's `server.properties` file. 5) In server.properties, change this line: `require-resource-pack=false` to: `require-resource-pack=true`
-6) You can place your mod in the server's `mods` folder.
+6) You can place your mod in the server's `mods` folder:
+server/
+ └── mods/
+      └── JoinLeaveMod.jar
 
 MY DISCORD FAQ: https://discord.gg/VjEyQuMxrz
 
