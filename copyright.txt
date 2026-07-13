@@ -1,0 +1,78 @@
+# Copyright et Conditions d'utilisation
+
+**Dernière mise à jour : 13 juillet 2026**
+
+## 1. Propriété intellectuelle
+
+L'ensemble du contenu de ce mod Minecraft, y compris mais sans s'y limiter : le code source, les textures, les modèles 3D, les animations, les sons, les musiques, les effets visuels, les interfaces, les traductions, les logos, le nom du projet et toute autre ressource associée, est protégé par le droit d'auteur.
+
+Sauf indication contraire, tous les droits sont réservés.
+
+## 2. Autorisations
+
+Vous êtes autorisé à :
+
+* Télécharger et utiliser le mod gratuitement.
+* Installer le mod sur votre ordinateur personnel.
+* Héberger le mod sur un serveur Minecraft afin de permettre à d'autres joueurs de l'utiliser.
+* Réaliser des vidéos ou des diffusions en direct (YouTube, Twitch, etc.) utilisant le mod, y compris dans un cadre monétisé.
+* Créer du contenu présentant le mod, à condition de mentionner son nom et, si possible, de fournir un lien vers sa page officielle.
+
+## 3. Interdictions
+
+Sans autorisation écrite préalable, il est interdit de :
+
+* Redistribuer le mod sur un autre site ou une autre plateforme.
+* Modifier le mod puis publier une version modifiée.
+* Décompiler, désassembler ou tenter d'extraire le code source dans le but de créer une copie ou un projet dérivé.
+* Réutiliser tout ou partie des textures, modèles, sons, musiques, interfaces ou autres ressources dans un autre projet.
+* Vendre le mod ou toute partie de son contenu.
+* Supprimer ou modifier les mentions de copyright.
+* Faire passer ce mod ou ses ressources pour votre propre création.
+
+## 4. Création de packs et d'addons
+
+Les packs de ressources, addons ou extensions compatibles avec le mod sont autorisés tant qu'ils ne contiennent aucune ressource extraite du mod et ne redistribuent aucun fichier original.
+
+Toute redistribution de fichiers appartenant au mod nécessite une autorisation explicite.
+
+## 5. Serveurs Minecraft
+
+Les serveurs Minecraft peuvent utiliser librement ce mod.
+
+Les administrateurs peuvent demander des dons ou vendre des avantages liés à leur serveur, à condition que ces ventes ne concernent pas directement le mod ou ses ressources.
+
+## 6. Utilisation commerciale
+
+Toute utilisation commerciale du mod ou de ses ressources est interdite sans autorisation écrite préalable.
+
+Cela comprend notamment :
+
+* la vente du mod ;
+* la vente de versions modifiées ;
+* la revente de ressources ;
+* l'intégration du mod dans un produit commercial.
+
+## 7. Contributions
+
+Toute contribution proposée (correctifs, suggestions, traductions, etc.) pourra être intégrée au projet. En soumettant une contribution, vous autorisez son utilisation dans le mod sans compensation financière, sauf accord contraire.
+
+## 8. Responsabilité
+
+Le mod est fourni "tel quel", sans aucune garantie.
+
+L'auteur ne pourra être tenu responsable des pertes de données, dysfonctionnements, incompatibilités ou dommages pouvant résulter de son utilisation.
+
+## 9. Modifications
+
+Ces conditions peuvent être modifiées à tout moment. La version la plus récente sera toujours disponible via le lien officiel communiqué par l'auteur.
+
+## 10. Contact
+
+Pour toute demande d'autorisation concernant la réutilisation du mod, de son code ou de ses ressources, veuillez contacter l'auteur via les moyens de communication officiels du projet.
+
+---
+
+© 2026 — Tous droits réservés.
+
+Toute utilisation non expressément autorisée par le présent document est interdite.
