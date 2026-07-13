@@ -42,8 +42,14 @@ server/
 
 MY DISCORD FAQ: https://discord.gg/VjEyQuMxrz
 
+➕CONFIG messages
 
-✏️Customization
+When you launch the mod for the first time, a `joinleave.json` file appears in your config folder. You can modify the join and leave text within this file. Use the Minecraft Server Tools website (https://mctools.org/motd-creator) to create custom colored messages.
+
+
+
+
+✏️Customization JAVA (developer)
 
 ⚙️You can modify the player connection and disconnection sounds. A link is provided above to help you make these changes (ask me if you need instructions on how to do it). Make sure to keep the correct file extensions for the resource pack files (.ogg, .json, etc.).
 
