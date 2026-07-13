@@ -1,5 +1,9 @@
 🔵 JoinLeave+   1.21.11 version       RELEASE 1.0.0
 
+⛔WARNING: IT IS THE LAST VERSION, CHECK THE CORRECTS FILES IN MY DISCORD⛔
+
+⚠️⚠️⚠️
+
 Bring your Minecraft server to life with an enhanced join and leave experience!
 
 JoinLeave+ replaces default Minecraft join messages with customizable ones and adds immersive sound effects when players join or leave the server.
